@@ -127,3 +127,91 @@ img {
   padding: 3em 2em;
   overflow-y: scroll;
 }
+
+.panel form {
+  margin-bottom: 3em;
+  /* display: flex; */
+}
+
+.submit {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 1.5em;
+  margin: 0;
+  border: none;
+  outline: none;
+  background: #fa6d1b;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.2em;
+  transition: 0.4s;
+}
+
+.submit:hover {
+  background: #fff !important;
+  color: #fa6d1b;
+}
+
+.search {
+  background: none;
+  border: none;
+  border-bottom: 1px #ccc solid;
+  padding: 0 1em 0.5em 0;
+  width: 80%;
+  color: #fff;
+  font-size: 1.1em;
+
+  &:focus {
+    outline: none;
+  }
+
+  &::placeholder {
+    color: #ccc;
+  }
+}
+
+.panel .cities {
+  padding: 0 0 1em 0;
+  margin: 2em 0;
+  border-bottom: 1px #ccc solid;
+}
+
+.panel ul li {
+  color: #ccc;
+  margin: 2.5em 0;
+}
+
+panel h4 {
+  margin: 3em 0;
+}
+
+.city {
+  display: block;
+  cursor: pointer;
+
+  &:hover {
+    color: #fff;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .panel,
+  .container {
+    position: relative;
+    width: 100%;
+    top: initial;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .weather-app {
+    min-height: 40em;
+  }
+}
