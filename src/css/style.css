@@ -1,4 +1,4 @@
-@import "@fortawesome/fontawesome-free/css/all.css";
+@import "modern-normalize";
 
 body {
   margin: 0;
@@ -49,7 +49,7 @@ img {
 
 .weather-app {
   min-height: 100vh;
-  background-image: url(./images/day/cloudy.jpg);
+  background-image: url(/images/day/cloudy.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -108,7 +108,7 @@ img {
 
 .weather img {
   display: block;
-  margin: 0.5em 0;
+  margin: 0 0 0.5em 0;
 }
 
 .panel {
