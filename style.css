@@ -1,4 +1,5 @@
-@import "node_modules/modern-normalize";
+@import "./node_modules/modern-normalize/";
+
 body {
   margin: 0;
   font-family: "Rubik", sans-serif;
