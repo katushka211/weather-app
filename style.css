@@ -1,4 +1,4 @@
-@import "node_modules/modern-normalize/modern-normalize.css";
+@import "https://unpkg.com/modern-normalize@latest/modern-normalize.css";
 
 body {
   margin: 0;
