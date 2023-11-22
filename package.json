@@ -14,7 +14,6 @@
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.4.2",
     "alias": "^0.0.5",
-    "modern-normalize": "^2.0.0",
-    "normalize.css": "^8.0.1"
+    "modern-normalize": "^2.0.0"
   }
 }
