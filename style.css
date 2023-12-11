@@ -107,6 +107,8 @@ img {
 .weather img {
   display: block;
   margin: 0 0 0.5em 0;
+  width: 64px;
+  height: 64px;
 }
 
 .panel {

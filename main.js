@@ -70,10 +70,11 @@ const fetchWeatherData = () => {
       nameOutput.innerHTML = data.location.name;
 
       const iconId = data.current.condition.icon.substr(
-        "//cdn.weatherapi.com/64x64/".length
+        "//cdn.weatherapi.com/weather/64x64/".length
       );
+
       let timeOfDay = "day";
-      icon.src = `./icons/${timeOfDay}/${iconId}`;
+      icon.src = `./icons/${iconId}`;
 
       cloudOutput.innerHTML = data.current.cloud + "%";
       humidityOutput.innerHTML = data.current.humidity + "%";
